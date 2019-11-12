@@ -1,0 +1,7 @@
+<h1>Welcome</h1>
+<h3>Email : {{ data.email }}</h3>
+<img src="{{ data.image.url }}">
+
+<form action="{% url 'logout' %}" method="get">
+    <button type="submit">Logout</button>
+</form>
